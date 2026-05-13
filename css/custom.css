@@ -1,0 +1,31 @@
+/* ============================================
+   自定义样式 (不会被主题升级覆盖)
+   ============================================ */
+
+/* 右下角导航菜单：首页 / 归档 / 分类 / 标签 */
+.site-title-links ul li {
+  font-size: 24px !important;   /* 字体放大 */
+  margin: 8px 0 !important;     /* 行距加大一点 */
+}
+
+.site-title-links ul li a {
+  color: #c0392b !important;              /* 菜单文字：砖红 */
+  border-bottom: solid #c0392b 2px !important;  /* 下划线跟着同色 */
+  transition: color .2s ease;
+}
+
+.site-title-links ul li a:hover {
+  color: #d4a017 !important;              /* 悬停变金 */
+  border-bottom-color: #d4a017 !important;
+}
+
+/* 当前页的菜单项（比如在首页时"首页"字样） */
+.site-title-links ul li a.current {
+  color: #8e44ad !important;              /* 当前页：紫色高亮 */
+  border-bottom-color: #8e44ad !important;
+}
+
+/* 社交图标（RSS / GitHub 等），放大一点跟菜单协调 */
+.site-title-links ul li.soc a {
+  font-size: 22px !important;
+}
